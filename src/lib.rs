@@ -72,8 +72,8 @@ impl App {
 
         let known_scenes = vec![("/triangle_splatting/garden.tsplat", "garden")];
 
-        let render_resolution = display::RenderResolution::Ws1080P;
-        let supersample = 1;
+        let render_resolution = display::RenderResolution::Ws720P;
+        let supersample = 3;
         let render_frame = display.create_render_frame(&render_resolution, supersample);
 
         let state = RefCell::new(AppState {
