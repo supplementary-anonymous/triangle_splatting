@@ -70,7 +70,7 @@ impl App {
         let gui_state =
             egui_winit::State::new(egui_ctx, egui::ViewportId::ROOT, &window, None, None, None);
 
-        let known_scenes = vec![("/garden.tsplat", "garden")];
+        let known_scenes = vec![("/triangle_splatting/garden.tsplat", "garden")];
 
         let render_resolution = display::RenderResolution::Ws1080P;
         let supersample = 1;
