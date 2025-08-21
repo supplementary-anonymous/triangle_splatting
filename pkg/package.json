@@ -1,0 +1,15 @@
+{
+  "name": "webviewer",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "webviewer_bg.wasm",
+    "webviewer.js",
+    "webviewer.d.ts"
+  ],
+  "main": "webviewer.js",
+  "types": "webviewer.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
